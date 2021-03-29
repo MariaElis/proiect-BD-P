@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE304D2A-E3E6-F1E8-0FDA-956F7A3F5AA5" name="material_manager">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_material" id="D7ABB3D1-FF81-AC88-B045-9D29508093D1">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD5A2D53-1734-D8FA-26D3-5CA6E1C31BB8" referredColumn="F733934E-B9A2-1F44-F024-E11DB0FAC525"/>
+</associations>
+</Column>
+<Column name="id_manager" id="ADAF6D67-9DBC-5D0F-F505-9A7F10B47D69">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92B97B1A-EFEF-F05F-665F-4C838BB3CBE4" referredColumn="EB32DE48-9FE1-A33A-3E4C-D285AE84628B"/>
+</associations>
+</Column>
+<Column name="data_achizitionarii" id="464FD09F-19E6-46E7-B2CB-244BC08F92E6">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>D36DFAE2-4394-A05F-224B-B88081F19733</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="cant_material" id="0596E9AA-5B45-5C13-F9A4-E6A06A42E7A4">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>52E4266B-8A8F-1803-1B55-F4CBC2CE4A57</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="pret" id="547FB6EA-4AFD-E079-909A-C7CD7C1FA9AF">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>BCA2BBE8-E405-BC90-3945-4625537EAD09</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="origine" id="0A720783-78DC-D067-8852-1702B15784EF">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>C8652C52-CE28-3C99-673C-4A43B01B7A85</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8862EB1E-3C07-7376-B3AD-57FB3D35B769" name="material_manager_PK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7ABB3D1-FF81-AC88-B045-9D29508093D1"/>
+<colUsage columnID="ADAF6D67-9DBC-5D0F-F505-9A7F10B47D69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BC70AEE-9FF6-DEF0-39B6-F795D52E168C" name="material_manager_MATERIAL_FK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>6F04D06F-A3CA-DDB2-90A8-2C8E0F49D6C4</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7ABB3D1-FF81-AC88-B045-9D29508093D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4286CA4-58ED-8D46-855B-478626E3D5C6" name="material_manager_MANAGER_FK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>6F04D06F-A3CA-DDB2-90A8-2C8E0F49D6C4</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADAF6D67-9DBC-5D0F-F505-9A7F10B47D69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

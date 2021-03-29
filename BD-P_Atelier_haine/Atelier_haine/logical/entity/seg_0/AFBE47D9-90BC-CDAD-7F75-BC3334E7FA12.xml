@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AFBE47D9-90BC-CDAD-7F75-BC3334E7FA12" name="CONFIDENTIAL">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-14 11:54:17 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_confidential" id="687263C8-DFA6-AFF2-99B8-3BFF025611FF">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-14 11:54:53 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_angajat" id="4B17F4C0-368A-1DDF-28BC-08612F2AD804">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-14 11:59:29 UTC</createdTime>
+<generatorID>FA1FE2D7-D0B2-716A-E5A0-7F3B0D849289</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<referedAttribute>7EADE471-90C2-E2EB-F834-0EA732DF6402</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnp" id="455C7637-7917-F1EF-0931-6C38457EAC13">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-14 11:55:46 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefon" id="58F2D0F7-0E88-BFF5-5098-62AE8809D06E">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-14 11:56:23 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<constraintName>confidential_telefon_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length( to_char(telefon) ) = 10  AND substr( to_char(telefon),   1,   1  )   = &apos;0&apos;             OR substr( to_char(telefon),  2,  1  ) = &apos;2&apos;            OR substr( to_char(telefon),  2,  1  ) = &apos;3&apos;             OR substr( to_char(telefon),  2, 1  ) = &apos;7&apos; "/>
+</checkConstraint>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa" id="1FC909D0-E7F1-B853-E9D7-8C346CDE4A9A">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-17 07:38:36 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20707CBF-05FD-CF8C-7881-EFE5DD2EA671" name="CONFIDENTIAL PK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-14 11:55:45 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>687263C8-DFA6-AFF2-99B8-3BFF025611FF</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A5F34522-67BA-A550-F0C6-AAA7064FECC1" name="confidential_cnp_uk">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 04:36:50 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<newElementsIDs>455C7637-7917-F1EF-0931-6C38457EAC13</newElementsIDs>
+<usedAttributes>
+<attributeRef>455C7637-7917-F1EF-0931-6C38457EAC13</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

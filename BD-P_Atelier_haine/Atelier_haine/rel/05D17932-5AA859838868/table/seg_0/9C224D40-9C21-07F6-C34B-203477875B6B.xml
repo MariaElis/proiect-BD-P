@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C224D40-9C21-07F6-C34B-203477875B6B" name="MATERIAL">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>7203CE28-5424-C1CD-2BF8-70C1B4925A25</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_material" id="F733934E-B9A2-1F44-F024-E11DB0FAC525">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>D60A047F-648C-C4A4-E13C-14106C63D2A7</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume_material" id="BB337FA6-4B8F-9C8B-7148-1C735A30322C">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>57645538-8A95-3132-A82B-82FC21BA8A53</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<constraintName>material_nume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="bumbac" description=""/>
+<valueDef value="bumbac_m" description=""/>
+<valueDef value="bumbac_s" description=""/>
+<valueDef value="in" description=""/>
+<valueDef value="stofa" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="culoare" id="D03AEA81-AF78-2E60-3F82-D8922044EB15">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>E7BC037E-9ECA-E930-3DBB-F72B8211905A</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="716B5F26-BA0C-0FB7-53BC-6D10FCF865EB" name="MATERIAL_PK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>637BA13C-0EC5-143E-C9F8-19BD87505B42</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F733934E-B9A2-1F44-F024-E11DB0FAC525"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

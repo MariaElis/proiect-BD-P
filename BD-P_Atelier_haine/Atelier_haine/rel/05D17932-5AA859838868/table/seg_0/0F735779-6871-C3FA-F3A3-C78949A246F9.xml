@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F735779-6871-C3FA-F3A3-C78949A246F9" name="PRODUS">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>7C463503-655B-6D02-89C3-94DE1D890020</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produs" id="553C5854-C505-F37F-AFF3-408B3BEF7EDB">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>0A93EB29-B88D-414C-584B-AE33D2417B2D</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume_produs" id="CF4F70B8-6E62-65F2-8446-E68BAEB135FC">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>9E8DF732-D17C-FCFC-DFA5-4E291E6C0E44</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<constraintName>produs_nume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="camasa" description=""/>
+<valueDef value="fusta" description=""/>
+<valueDef value="hanorac" description=""/>
+<valueDef value="palton" description=""/>
+<valueDef value="pantalon" description=""/>
+<valueDef value="pijama" description=""/>
+<valueDef value="rochita" description=""/>
+<valueDef value="sacou" description=""/>
+<valueDef value="salopeta" description=""/>
+<valueDef value="tricou" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categorie" id="D92F9528-6337-CBC0-681B-91C0FC5DFAA2">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>A1B4E458-BBBA-056B-E49B-190A296933AE</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<constraintName>produs_categorie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<listOfValues>
+<valueDef value="B" description=""/>
+<valueDef value="BB" description=""/>
+<valueDef value="BG" description=""/>
+<valueDef value="G" description=""/>
+</listOfValues>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_marime" id="BA3CD31B-7937-642D-FE2B-40962D4AD2CF">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>3AAA4113-E182-631A-8BD5-D6E9F0EE1846</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD89F7B8-E76D-CB91-DE04-13D01547C56C" referredColumn="14AE2C28-8CEC-41C1-D6D9-5DEF75D50AB3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECD862D4-2CFE-49DA-0B35-53BB778A171F" name="ART_VESTIMENTAR_PK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>B7CC6AAD-137A-B075-C617-A5DE1938CD91</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="553C5854-C505-F37F-AFF3-408B3BEF7EDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="437C5CF4-BC25-E8EE-57D8-B9A4961F491C" name="marime_produs_FK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>ACCC87D5-07FB-2633-E20D-1F4E25F47F8D</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA3CD31B-7937-642D-FE2B-40962D4AD2CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

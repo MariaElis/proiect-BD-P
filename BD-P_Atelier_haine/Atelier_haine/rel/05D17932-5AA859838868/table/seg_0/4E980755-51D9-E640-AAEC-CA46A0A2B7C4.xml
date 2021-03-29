@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E980755-51D9-E640-AAEC-CA46A0A2B7C4" name="produs_material">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produs" id="D0B1D19E-CF93-FCB9-77C0-300CBAD2CA9B">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DAF47D7-D2BE-BF66-63C9-1FCEBEED8474" referredColumn="553C5854-C505-F37F-AFF3-408B3BEF7EDB"/>
+</associations>
+</Column>
+<Column name="id_material" id="1A8E250A-8DF3-1AFF-6EAC-8F37699AC67D">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A88EAE0-FC33-4CE3-DF1F-A5254860A43B" referredColumn="F733934E-B9A2-1F44-F024-E11DB0FAC525"/>
+</associations>
+</Column>
+<Column name="cantitate_material" id="E2FBE5E1-BA00-552E-3E5A-991FDF99DC59">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>FB102FD0-80FD-F30A-85E9-6A723822F053</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92A06712-A45F-A904-9DDC-9B8AFDCF46C7" name="produs_material_PK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0B1D19E-CF93-FCB9-77C0-300CBAD2CA9B"/>
+<colUsage columnID="1A8E250A-8DF3-1AFF-6EAC-8F37699AC67D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="915F1A33-8251-DA68-AFCD-344E2ABF2228" name="produs_material_PRODUS_FK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>002BC0BD-8919-285E-1B88-158E7783025C</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0B1D19E-CF93-FCB9-77C0-300CBAD2CA9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DC20F1E-63E6-DDBF-8A74-6DB6D0002890" name="produs_material_MATERIAL_FK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>002BC0BD-8919-285E-1B88-158E7783025C</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A8E250A-8DF3-1AFF-6EAC-8F37699AC67D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

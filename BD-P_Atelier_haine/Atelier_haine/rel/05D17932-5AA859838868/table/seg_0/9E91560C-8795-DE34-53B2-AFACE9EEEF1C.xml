@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E91560C-8795-DE34-53B2-AFACE9EEEF1C" name="MANAGER">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>D8875D09-2569-B06E-8BF9-F93251166F60</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_manager" id="EB32DE48-9FE1-A33A-3E4C-D285AE84628B">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>37702074-B11D-0DEF-23A5-36667C5D7ED6</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_angajat" id="4A82031B-7128-0704-922C-FFAF7A412C9A">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>A58EC066-1C47-A4B3-2813-668151FCF2B4</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8436970-65A1-8092-4773-0DB0C187C5A2" referredColumn="3BAA9786-45A8-DC08-9E05-06B33A3BECC3"/>
+</associations>
+</Column>
+<Column name="buget_alocat" id="FF34AE14-A9B1-7F31-B04B-22437C5936EF">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>15209D35-22D0-127B-4605-1F5C5E4AF02F</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<constraintName>manager_buget_alocat_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>10000</beginValue>
+<endValue>500000</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8172374C-EC43-48C7-E7E6-F510A2E71476" name="MANAGER_PK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>F07AE2DB-BBB1-16FF-8DDA-ABDA7A1DC4C7</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB32DE48-9FE1-A33A-3E4C-D285AE84628B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A31CBC06-3E1F-9D04-5CE8-0FF0BCB445FB" name="MANAGER__IDX">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>476DE79E-989F-AF7A-7E42-74EDF7274E3B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4A82031B-7128-0704-922C-FFAF7A412C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE7110C0-F854-E360-4E1E-A08EC0687D30" name="angajat_manager_FK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>476DE79E-989F-AF7A-7E42-74EDF7274E3B</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A82031B-7128-0704-922C-FFAF7A412C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

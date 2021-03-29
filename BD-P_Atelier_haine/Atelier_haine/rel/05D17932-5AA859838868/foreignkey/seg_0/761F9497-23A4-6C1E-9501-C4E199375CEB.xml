@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="761F9497-23A4-6C1E-9501-C4E199375CEB" containerWithKeyObject="1B497318-3E93-FAE2-6EA2-03257FA011FE" localFKIndex="F6F5521A-4411-35D5-27F2-31A6E027846A" name="departament_angajat_FK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>7F7D7BE1-B841-7EBA-2CF4-F0D2D184C646</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<referredTableLongName>DEPARTAMENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B617D94E-CF30-A773-A1D3-F376AA3C488B</referredTableID>
+<keyObject>F8BC5C2F-40B1-FD48-BBAE-9F0DCBA028D9</keyObject>
+<referredKeyID>F8BC5C2F-40B1-FD48-BBAE-9F0DCBA028D9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_departament</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

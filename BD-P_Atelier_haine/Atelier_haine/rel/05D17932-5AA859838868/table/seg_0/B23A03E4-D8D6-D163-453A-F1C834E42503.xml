@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B23A03E4-D8D6-D163-453A-F1C834E42503" name="CONFIDENTIAL">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>AFBE47D9-90BC-CDAD-7F75-BC3334E7FA12</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_confidential" id="7803B9F1-D0DE-7A90-DBF5-AA691AE1F906">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>687263C8-DFA6-AFF2-99B8-3BFF025611FF</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_angajat" id="10539BFE-0B1F-AB03-1CC7-B98CCC4F8BAF">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>4B17F4C0-368A-1DDF-28BC-08612F2AD804</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A6FAD4D-FE65-208A-F9B3-35C6BE6ADFD0" referredColumn="3BAA9786-45A8-DC08-9E05-06B33A3BECC3"/>
+</associations>
+</Column>
+<Column name="cnp" id="977E6AA6-1480-6759-534E-B672E67526E9">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>455C7637-7917-F1EF-0931-6C38457EAC13</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="7DCECE9C-7323-3C74-3BB9-80AA9DC39EB1">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>58F2D0F7-0E88-BFF5-5098-62AE8809D06E</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<constraintName>confidential_telefon_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length( to_char(telefon) ) = 10  AND substr( to_char(telefon),   1,   1  )   = &apos;0&apos;             OR substr( to_char(telefon),  2,  1  ) = &apos;2&apos;            OR substr( to_char(telefon),  2,  1  ) = &apos;3&apos;             OR substr( to_char(telefon),  2, 1  ) = &apos;7&apos; "/>
+</checkConstraint>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="796762B2-7BAC-9D5E-CA9A-8BFAD42B3395">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>1FC909D0-E7F1-B853-E9D7-8C346CDE4A9A</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CFDC9B8-4603-7DE9-41A2-46035117D279" name="CONFIDENTIAL_PK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>20707CBF-05FD-CF8C-7881-EFE5DD2EA671</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7803B9F1-D0DE-7A90-DBF5-AA691AE1F906"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E4B0FD2-AAC0-C1E9-5AF3-F5DC0BDBB4A2" name="confidential_cnp_uk">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>A5F34522-67BA-A550-F0C6-AAA7064FECC1</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="977E6AA6-1480-6759-534E-B672E67526E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6EB569A-3737-9D98-AECD-54E121ABD50F" name="CONFIDENTIAL__IDX">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FA1FE2D7-D0B2-716A-E5A0-7F3B0D849289</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="10539BFE-0B1F-AB03-1CC7-B98CCC4F8BAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E30819B1-B9B6-4B29-EC29-27853E77300D" name="angajat_confidential_FK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>FA1FE2D7-D0B2-716A-E5A0-7F3B0D849289</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10539BFE-0B1F-AB03-1CC7-B98CCC4F8BAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

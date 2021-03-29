@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="angajat_confidential_FK" directorySegmentName="seg_0" id="FA1FE2D7-D0B2-716A-E5A0-7F3B0D849289">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-14 11:59:29 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<sourcePk>DFCD11EC-D919-7CB8-C560-FE62E5277766</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>ii corespund datele</nameOnSource>
+<nameOnTarget>apartin</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A77A5E1C-2CC1-7CB4-C877-F7612D575C17</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>AFBE47D9-90BC-CDAD-7F75-BC3334E7FA12</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

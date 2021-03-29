@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A5E8C07-063E-3CA6-2423-E4B829827972" containerWithKeyObject="FC487C88-7B79-F06F-A028-4B6509280319" localFKIndex="E53C079C-B375-3521-77E3-7E8D0EF7874C" name="produs_croitor_CROITOR_FK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>F4022727-62B1-7B7B-789D-5F9CF23FF174</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<referredTableLongName>CROITOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E1AE07F1-574F-7D58-2AFD-F0E041F26881</referredTableID>
+<keyObject>9976FF10-AA39-105E-061D-089FD81BE469</keyObject>
+<referredKeyID>9976FF10-AA39-105E-061D-089FD81BE469</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_croitor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

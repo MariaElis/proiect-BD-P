@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91176319-7621-2ABC-58FD-0EFBF62FCBAD" name="MARIME">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>1AEF84C7-C1B6-CCC0-879D-36934A447D02</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_marime" id="14AE2C28-8CEC-41C1-D6D9-5DEF75D50AB3">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>449FD55A-9AB5-B5A8-D79F-169556137EBE</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marime_cm" id="78AED9BF-60AF-3F2D-48AD-E3D5B6F11320">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>AB0BF06B-311D-B2E4-37CC-171B44FF332C</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<listOfValues>
+<valueDef value="104" description=""/>
+<valueDef value="110" description=""/>
+<valueDef value="116" description=""/>
+<valueDef value="122" description=""/>
+<valueDef value="62" description=""/>
+<valueDef value="68" description=""/>
+<valueDef value="74" description=""/>
+<valueDef value="80" description=""/>
+<valueDef value="86" description=""/>
+<valueDef value="92" description=""/>
+<valueDef value="98" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7EFF160-B7E9-27B2-0A2E-89A6D3006A51" name="MARIME_PK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>865AFC53-FDD4-6A13-6E6F-F1AF504E99DA</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14AE2C28-8CEC-41C1-D6D9-5DEF75D50AB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

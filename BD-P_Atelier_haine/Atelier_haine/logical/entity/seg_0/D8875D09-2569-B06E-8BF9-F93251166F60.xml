@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8875D09-2569-B06E-8BF9-F93251166F60" name="MANAGER">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-17 15:38:25 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_manager" id="37702074-B11D-0DEF-23A5-36667C5D7ED6">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-17 15:38:35 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_angajat" id="A58EC066-1C47-A4B3-2813-668151FCF2B4">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-17 21:03:17 UTC</createdTime>
+<generatorID>476DE79E-989F-AF7A-7E42-74EDF7274E3B</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<referedAttribute>7EADE471-90C2-E2EB-F834-0EA732DF6402</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="buget_alocat" id="15209D35-22D0-127B-4605-1F5C5E4AF02F">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-17 18:25:19 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<constraintName>manager_buget_alocat_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>10000</beginValue>
+<endValue>500000</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F07AE2DB-BBB1-16FF-8DDA-ABDA7A1DC4C7" name="MANAGER PK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-17 15:38:59 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37702074-B11D-0DEF-23A5-36667C5D7ED6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1AE07F1-574F-7D58-2AFD-F0E041F26881" name="CROITOR">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>843A7DC4-8E19-A9F6-0CD8-D64F8D8553B7</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_croitor" id="77F7D281-C4E7-A9E3-0C25-3C74AE55C281">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>3DD85306-5E8C-3BD8-50F1-EAB9C17D9A7E</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_angajat" id="89CE1862-E164-5210-4AA2-599733F40DE1">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>B06A950E-2B45-6903-E532-A0CA1212D4C4</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88961485-FDED-0191-972B-D8F0613D4263" referredColumn="3BAA9786-45A8-DC08-9E05-06B33A3BECC3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9976FF10-AA39-105E-061D-089FD81BE469" name="CROITOR_PK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>C303FE0F-1BFB-8592-0AE6-2E3D54AE4977</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77F7D281-C4E7-A9E3-0C25-3C74AE55C281"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84330CD8-3B23-386C-1E3A-5F23C216F507" name="CROITOR__IDX">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>04D0D679-E849-EE91-768C-FE5AF521F514</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="89CE1862-E164-5210-4AA2-599733F40DE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="833FE6E5-114D-0C1A-F82C-63BAD18BDC9C" name="angajat_croitor_FK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>04D0D679-E849-EE91-768C-FE5AF521F514</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89CE1862-E164-5210-4AA2-599733F40DE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

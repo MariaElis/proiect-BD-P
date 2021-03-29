@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="angajat_croitor_FK" directorySegmentName="seg_0" id="04D0D679-E849-EE91-768C-FE5AF521F514">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 03:34:26 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<sourcePk>DFCD11EC-D919-7CB8-C560-FE62E5277766</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>actioneaza ca</nameOnSource>
+<nameOnTarget>este un</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A77A5E1C-2CC1-7CB4-C877-F7612D575C17</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>843A7DC4-8E19-A9F6-0CD8-D64F8D8553B7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

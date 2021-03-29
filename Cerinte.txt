@@ -1,0 +1,29 @@
+Tema proiectului ales este : Atelier de haine pentru copii.
+
+Aplicatia își propune simularea interacțiunii din cadrul atelierului in vederea 
+producerii de haine.
+	Baza de date va contine informatii despre:
+-croitori si datele lor confidentiale, 
+-produse(rochita,fusta,camasa,pantalon,sacou,palton,pijama,tricou,hanorac,
+			salopeta) impartite pe:
+	-categorii de varsta(GIRL->G,BABY GIRL->BG,BOY->B,BABY BOY->BB),
+	-marimi(->GIRL si BOY:  2-3 ANI(98 cm) 
+				3-4 ANI(104 cm) 
+				4-5 ANI(110 cm) 
+				6 ANI(116 cm)
+				7 ANI(122 cm)
+		->BABY GIRL si BABY BOY:1-3 LUNI(62 cm)
+					3-6 LUNI(68 cm)
+					6-9 LUNI(74 cm)
+					9-12 LUNI(80 cm)
+					12-18 LUNI(86 cm)
+					18-24 LUNI(92 cm))
+	-tipul materialului(bumbac,bumbac structurat-> bumbac_s,bumbac moale-> bumbac_m,
+				in,stofa)
+	-culori(alb,roz,albastru,mustar,).
+
+Trebuie avut in vedere aspectul administrativ pentru angajati,
+plasarea responsabilitatilor realizandu-se in functie de departamentul din care fac parte.
+-designer - el se va ocupa de desenarea hainutelor si crearea sabloanelor
+-croitoresele - vor croi produsele;
+-manager - el se va ocupa de procurarea materialelor in functie de bugetul alocat;

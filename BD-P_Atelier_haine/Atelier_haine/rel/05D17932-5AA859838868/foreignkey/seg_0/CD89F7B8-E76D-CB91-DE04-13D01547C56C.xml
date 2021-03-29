@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CD89F7B8-E76D-CB91-DE04-13D01547C56C" containerWithKeyObject="0F735779-6871-C3FA-F3A3-C78949A246F9" localFKIndex="437C5CF4-BC25-E8EE-57D8-B9A4961F491C" name="marime_produs_FK">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 12:15:14 UTC</createdTime>
+<generatorID>ACCC87D5-07FB-2633-E20D-1F4E25F47F8D</generatorID>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<referredTableLongName>MARIME</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>91176319-7621-2ABC-58FD-0EFBF62FCBAD</referredTableID>
+<keyObject>F7EFF160-B7E9-27B2-0A2E-89A6D3006A51</keyObject>
+<referredKeyID>F7EFF160-B7E9-27B2-0A2E-89A6D3006A51</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_marime</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

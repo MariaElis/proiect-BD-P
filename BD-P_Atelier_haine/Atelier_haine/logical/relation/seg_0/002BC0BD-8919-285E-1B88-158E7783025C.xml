@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="produs_material" directorySegmentName="seg_0" id="002BC0BD-8919-285E-1B88-158E7783025C">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 03:51:30 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7C463503-655B-6D02-89C3-94DE1D890020</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7203CE28-5424-C1CD-2BF8-70C1B4925A25</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="cantitate_material" id="FB102FD0-80FD-F30A-85E9-6A723822F053">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 03:51:40 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

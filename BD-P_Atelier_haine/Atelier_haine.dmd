@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Atelier_haine" id="3E2E9704-01A8-66F3-C827-0B736CD0952A" version="3.5">
+<createdBy>Marius</createdBy>
+<createdTime>2020-11-28 12:28:31 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3E2E9704-01A8-66F3-C827-0B736CD0952A</designId>
+</OSDM_Design>

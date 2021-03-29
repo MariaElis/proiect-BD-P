@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="produs_croitor" directorySegmentName="seg_0" id="F4022727-62B1-7B7B-789D-5F9CF23FF174">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-17 21:05:56 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7C463503-655B-6D02-89C3-94DE1D890020</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>843A7DC4-8E19-A9F6-0CD8-D64F8D8553B7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="data_realizarii" id="40EB5C4C-9B9E-8223-ACAB-EA08409A76C9">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 03:45:42 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="nr_produse" id="D74283DB-28E2-3762-1782-936B1E7D6D7A">
+<createdBy>Marius</createdBy>
+<createdTime>2020-12-18 11:05:30 UTC</createdTime>
+<ownerDesignName>Atelier_haine</ownerDesignName>
+<engineerTo>
+<item key="05D17932-5E70-64CF-16FD-5AA859838868" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
